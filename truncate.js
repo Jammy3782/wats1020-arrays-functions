@@ -9,7 +9,8 @@ var myFunction = truncateWords(numWeekDays);{
     var truncateWords = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 var myFunction = truncateWords(WeekDays);{
   console.log (truncateWords[WeekDays]);
-  console.log('WeekDays! #' + i);   
+  console.log('WeekDays! #' + i);  
+   //Function "truncateWords" is defined above
     
   }
    console.log('End WeekDays from function'); 
