@@ -4,6 +4,32 @@
 // longText (a String with several words in it)
 // numWords (an Integer that sets the number of words you want in the returned text)
 
+var myFunction = truncateWords(numWeekDays);{
+  for (var i=0; i<numWeekDays; i++){
+    var truncateWords = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+var myFunction = truncateWords(WeekDays);{
+  console.log (truncateWords[WeekDays]);
+  console.log('WeekDays! #' + i);   
+    
+  }
+   console.log('End WeekDays from function'); 
+}
+myFunction(3);
+} 
+  console.log (WeekDay[days]);
+  console.log(hellos[0]);
+  console.log(hellos.join)('|')
+  
+var wordList = 'Monday, Tuesday, Wednesday, Thusrsday, Friday'; 
+var WordListArray = wordList.split('');
+console.log(wordListArray)[0]; 
+var newWordList = wordListArray.join('');
+console.log(newWordList);
+
+var shortWordList = wordListArray.splice(0, 3);
+console.log ('shortWordList:' + shortWordList);
+
+
 // TODO: Within the truncateWords() Function, complete the following steps:
 // 1. Use the split() function to split the String into an Array
 // 2. Use the length attribute to find the number of words in the Array
@@ -21,3 +47,4 @@ var wordLimit = 8;
 var shortText = truncateWords(originalText, wordLimit);
 console.log('originalText: ' + originalText);
 console.log('shortText: ' + shortText);
+
